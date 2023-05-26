@@ -1,0 +1,2 @@
+E:\Projects\Ponni\DataManagementTool\reactapp\obj\Debug\reactapp.esproj.SuggestedBindingRedirects.cache
+E:\Projects\Ponni\DataManagementTool\reactapp\obj\Debug\reactapp.esproj.CoreCompileInputs.cache

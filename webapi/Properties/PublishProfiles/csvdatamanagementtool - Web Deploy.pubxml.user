@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAnT0MiL82mkuL1Z+bfoR+KQAAAAACAAAAAAAQZgAAAAEAACAAAAC1rrQPQDy3P+U/5lptBjbqgc0zBFvo4lBKFoisolt0KAAAAAAOgAAAAAIAACAAAAA7+KESOMoaXHoQg9mLcbROSkA1L41rjsd76e6swC60Y4AAAABSWNdu5pbPzkLNnSEkFxR4iJW7RR1TkrXvosc/uU5V53A40+oE5uvg4XkTo+HEwAM16l/VLsO23xrHLZnT5BtpmFlkbeBt9xxJ6fSE6SfFPu0JM2NMdMgWOqq/w6ku1tEhYRFgNtLeIfdatvP+El7H+J0juk6xZXNCU+OuDT7cYkAAAACoQHRwXsoxX2HzDoFEXhwAVbBk8opg4Lc5iYuGJiL+1KJi+m1NtM8d/UUME6bfymgpzegQPC19i9jmh7ASxz2e</EncryptedPassword>
+    <History>True|2023-05-25T20:36:56.8462588Z;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="Azure-DB">
+      <Value>Server=tcp:azure-east-us1.database.windows.net,1433%3bInitial Catalog=Customer%3bPersist Security Info=False%3bUser ID=azure-adminuser%3bPassword=Welcome%402023%3bMultipleActiveResultSets=False%3bEncrypt=True%3bTrustServerCertificate=False%3bConnection Timeout=30%3b</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+</Project>

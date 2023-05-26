@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAnT0MiL82mkuL1Z+bfoR+KQAAAAACAAAAAAAQZgAAAAEAACAAAAATp5bC9SPeHA0D+Q1AzkEPKU6Grn3kuH4/c6fU/LzG2gAAAAAOgAAAAAIAACAAAAAwWHjTKjU8vt1MyfvolIBd7EKOa6Rw/o7awBmU4qXrPYAAAADJ4RLpKBURK67w/fzggk18VXBsmtbHNRU7AI5wJKbASwG/6yiqtMSIdFeE3m0u3dkj7K/c4rjyInSMur8NqAfJyUYmNSgKKsP24zcEfJ3PkunrWCfI3XlJgINgtcUmy2uvV/xgfWcnd8IFlTsZf1M6Ec1wqTCFmLNy4plLILrQMkAAAACpK0TtCqASHtRnIpHOg52tXkbvtiIlEdBSZ/ucGcJ7zVbqrn5L7524aVESPLBOFOGHnTzuj4rQ+6UyLWL8mMqW</EncryptedPassword>
+    <History>True|2023-05-26T10:57:19.6728402Z;True|2023-05-26T14:59:37.5846118+05:30;False|2023-05-26T14:58:30.0722677+05:30;True|2023-05-26T14:37:28.4508719+05:30;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="Azure-DB">
+      <Value>Server=tcp:azure-east-us1.database.windows.net,1433%3bInitial Catalog=Customer%3bPersist Security Info=False%3bUser ID=azure-adminuser%3bPassword=Welcome%402023%3bMultipleActiveResultSets=False%3bEncrypt=True%3bTrustServerCertificate=False%3bConnection Timeout=30%3b</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="webapi.EF.CustomerContext">
+      <Value>Data Source=azure-east-us1.database.windows.net,1433%3bInitial Catalog=Customer%3bUser ID=azure-adminuser%3bPassword=Welcome%402023</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>
